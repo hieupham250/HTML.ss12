@@ -272,7 +272,6 @@ img {
     gap: 10px;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
 }
 
 .heading-1 h2 {
@@ -305,17 +304,20 @@ img {
 
 .contaiter {
     width: 100%;
-    height: 1692px;
+    height: 1330px;
     position: absolute;
     top: 1228px;
-    background-color: aqua;
+}
+
+.contaiter h5 {
+    color: #AFADB5;
 }
 
 .transfer {
     width: 296px;
     height: 42px;
     position: absolute;
-    top: 3000px;
+    top: 2600px;
     left: 572px;
     display: flex;
     gap: 10px;
@@ -336,11 +338,12 @@ img {
 }
 
 .footer {
-    width: 100%;
+    width: 95%;
     height: 290px;
     position: absolute;
-    top: 3142px;
+    top: 2740px;
     left: 40px;
+    border-top: 1px solid #ECE4DE;
 }
 
 .footer .Lalasia {
